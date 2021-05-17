@@ -10,7 +10,7 @@ phases:
       java: openjdk8
       docker: 18
   pre_build:
-    commands:
+    commands: 
       - echo Logging in to Amazon ECR...
       - echo $IMAGE_REPO_NAME
       - echo $AWS_ACCOUNT_ID
